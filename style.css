@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.accordion {
+    border: 1px solid rgba(0, 0, 0, .125);
+    overflow: hidden;
+}
+
+.accordion-flush .accordion-item .accordion-button {
+    background-color: rgb(240, 245, 255);
+    /* transition: 0.2s; */
+}
+
+.accordion-item .accordion-button {
+    font-size: 18px;
+}
+
+.accordion-item .accordion-button:focus {
+    box-shadow: none;
+    color: brown;
+    font-weight: bold;
+}
+
+.accordion-button:not(.collapsed) {
+    color: brown;
+    font-weight: bold;
+}
